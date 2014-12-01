@@ -1,0 +1,18 @@
+Changelog
+=========
+
+1.1 (2009-03-02)
+-----------------
+
+ - Fixed QuickInstall running these setuphandlers when installing other
+   products [Marshall Scorcio].
+
+1.0 (2009-02-27)
+------------------
+
+ - Initial release [Marshall Scorcio].
+
+0.1 (xxxx-xx-xx)
+------------------
+
+ - Created recipe with ZopeSkel [Marshall Scorcio].

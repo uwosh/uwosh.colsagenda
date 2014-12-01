@@ -1,0 +1,13 @@
+Changelog
+=========
+
+1.1 - 2009-03-02
+----------------
+
+* Fixed rerunning of setuphandlers when other products are installed
+
+1.0 - 2009-02-27
+----------------
+
+* Initial release
+

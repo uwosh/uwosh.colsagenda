@@ -1,0 +1,24 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="uwosh.colsagenda">
+
+    <include package="plone.app.contentmenu" />
+
+    <browser:page
+        for="..interfaces.IAgenda"
+        name="view"
+        class=".agenda.AgendaView"
+        permission="zope2.View"
+        />
+
+    <browser:menuItem
+        for="..interfaces.IAgenda"
+        menu="plone_displayviews"
+        title="Agenda view"
+        action="@@view"
+        description="Default representation of an agenda"
+        />
+        
+
+</configure>
